@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARSS Flyer - Final</title>
+    <link rel="stylesheet" href="./letak-style.css">
+</head>
+
+<body>
+
+    <div class="page">
+        <header class="header">
+            <h1>Popoln nadzor nad<br><span class="headline-highlight">porabo vode</span> v vaših rokah</h1>
+            <p class="subtitle">Zmanjšajte stroške in ulovite izlitja, preden postanejo težava.</p>
+        </header>
+
+        <div class="visual-container">
+            <div class="portal-image-wrapper">
+                <img src="./slika nasega portala brez ozadja.jpeg" alt="ARSS Portal Dashboard" class="portal-image">
+            </div>
+            <div class="aura-caption">AURA Pametna aplikacija za nadzor porabe vode</div>
+        </div>
+
+        <div class="features">
+            <div class="feature-item">
+                <div class="feature-icon-circle">💰</div>
+                <div class="feature-title">Prihranek denarja</div>
+                <div class="feature-desc">Optimizacija porabe in znižanje nepotrebnih stroškov.</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon-circle">🛡️</div>
+                <div class="feature-title">Varnost in Nadzor</div>
+                <div class="feature-desc">Takojšnje obvestilo na telefon ob zaznanem izlitju.</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon-circle">🌍</div>
+                <div class="feature-title">Dostopnost</div>
+                <div class="feature-desc">Pregled porabe kjerkoli in kadarkoli v oblaku.</div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-card">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jakahrovatarss-del.github.io/arss-spletna-stran-/&color=000000"
+                    alt="Scan QR" class="qr-code">
+                <div class="footer-card-content">
+                    <a href="https://jakahrovatarss-del.github.io/arss-spletna-stran-/" class="cta-button">Stopite v
+                        stik</a>
+                    <a href="https://jakahrovatarss-del.github.io/arss-spletna-stran-/" class="cta-link">www.arss.si</a>
+                </div>
+            </div>
+
+            <div class="footer-right-section">
+                <div class="footer-logo-wrapper">
+                    <img src="https://arss.si/wp-content/uploads/2022/12/ARSS_logo2022.png" alt="ARSS"
+                        class="footer-logo">
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

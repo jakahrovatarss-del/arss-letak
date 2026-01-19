@@ -1,0 +1,39 @@
+# Navodila in Izboljšave za Letak
+
+## Pregled Izboljšav
+Analizirali smo obstoječi letak in izvedli naslednje izboljšave:
+
+1.  **Struktura Kode (HTML)**:
+    - Odstranjeni odvečni komentarji in neuporabljena koda.
+    - Počiščena struktura za večjo preglednost.
+
+2.  **Oblikovanje (CSS)**:
+    - **Uvedba CSS Spremenljivk**: Barve, razmiki in sence so sedaj definirani v `:root` za lažje spreminjanje.
+    - **Optimizacija Razporeditve**:
+        - Zmanjšani robovi in razmiki (`page-padding`, `gap`), da se vsebina udobno prilega na A4 format.
+        - Dodani `box-shadow` efekti za večjo globino in moderni izgled.
+        - Izboljšana tipografija in kontrasti.
+    - **Print Optimizacija**: Dodana `@media print` pravila za odstranitev ozadij pri tiskanju.
+
+## Navodila za Uporabo
+
+### Odpiranje
+Datoteko `letak-a4.html` lahko odprete v kateremkoli sodobnem brskalniku (Chrome, Firefox, Edge).
+
+### Urejanje
+- **Tekst**: Urejate neposredno v `letak-a4.html`.
+- **Stili**: Barve in dimenzije urejate v `letak-style.css` v sekciji `:root`.
+
+### Tiskanje / Izvoz v PDF
+1. V brskalniku pritisnite `Ctrl + P`.
+2. Izberite "Save as PDF" (Shrani kot PDF).
+3. V nastavitvah (More settings) preverite:
+   - **Margins**: None (ali Default, če tiskalnik to zahteva).
+   - **Background graphics**: Obkljukajte, če želite ohraniti temno ozadje. Za varčnejši tisk (belo ozadje) to odkljukajte.
+   - **Scale**: Po potrebi prilagodite (npr. 95%), če se vsebina ne prilega.
+
+## Seznam Datotek
+- `letak-a4.html`: Glavna HTML datoteka.
+- `letak-style.css`: Stilna datoteka.
+- `slika nasega portala brez ozadja.jpeg`: Glavna slika.
+- `NAVODILA.md`: Ta datoteka z navodili.
