@@ -35,5 +35,5 @@ Datoteko `letak-a4.html` lahko odprete v kateremkoli sodobnem brskalniku (Chrome
 ## Seznam Datotek
 - `letak-a4.html`: Glavna HTML datoteka.
 - `letak-style.css`: Stilna datoteka.
-- `slika nasega portala brez ozadja.jpeg`: Glavna slika.
+- `slika nasega portala brez ozadja.png`: Glavna slika.
 - `NAVODILA.md`: Ta datoteka z navodili.
